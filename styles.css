@@ -1,0 +1,98 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.hero-container {
+  background-color: azure;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  background-position: center;
+  display: block;
+}
+
+.navbar-container {
+  background-color: darkgray;
+  padding: 15px;
+}
+
+.navbar-container .nav-icon {
+  color: azure;
+}
+
+.navbar-container .nav-icon i:hover {
+  font-size: large;
+  color: black;
+}
+
+.hero-container .login-pic {
+  height: 698px;
+  width: 710px;
+  /* border: 3px solid purple; */
+  background-image: url("https://source.unsplash.com/random?country");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 123px;
+  margin: 0;
+}
+
+.hero-container .login-form {
+  height: 700px;
+  width: 700px;
+  /* border: 3px solid green; */
+  padding: 75px 123px;
+  margin-left: 50%;
+  margin-top: -45%;
+  display: block;
+  text-align: center;
+}
+
+.hero-container .login-form .login-title {
+  font-family: "Dancing Script", cursive;
+  color: dimgray;
+  margin-top: 44%;
+}
+
+.hero-container .login-form .login-email {
+  margin: 1%;
+  display: block;
+}
+
+.hero-container .login-form .login-email input {
+  line-height: 15px;
+  font-family: "Dancing Script", cursive;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.hero-container .login-form .login-pass {
+  margin: 1%;
+  display: block;
+}
+
+.hero-container .login-form .login-pass input {
+  line-height: 15px;
+  font-family: "Dancing Script", cursive;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.hero-container .login-form .login-button button {
+  font-family: "Dancing Script", cursive;
+  color: dimgray;
+  background-color: azure;
+  padding: 12px 30px;
+  border-radius: 10px;
+  line-height: 1.2em;
+  border-width: 1.5px;
+  font-size: 18px;
+}
+
+.hero-container .login-form .login-button button:hover {
+  background-color: white;
+  cursor: pointer;
+}
