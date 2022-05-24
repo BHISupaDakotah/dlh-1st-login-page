@@ -1,0 +1,12 @@
+@media (max-width: 615px) {
+  .navbar-container {
+    background-color: rebeccapurple;
+  }
+  .navbar-container .nav-icon {
+    color: blue;
+  }
+  .navbar-container .nav-icon i:hover {
+    font-size: large;
+    color: green;
+  }
+}
